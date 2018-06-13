@@ -89,8 +89,8 @@ def ComputeAccuracy(net, x_test, y_test):
     Compute the accuracy of net
     :param net: the neural network
     :param x_test: inputs of test dataset
-    :param y_test: labels of test datset
-    :return: the accuracy in test datset
+    :param y_test: labels of test dataset
+    :return: the accuracy in test dataset
     """
     pred = net.predict(x_test)
     temp = 0
